@@ -9,6 +9,7 @@ body {
     height: 60px;
     position: fixed;
     border-radius: 0px;
+    position: fixed;
   }
   
   .nav-pills .nav-link {
@@ -84,9 +85,27 @@ body {
     text-align: center;
     width: 100%;
     max-width: 100%;
-  
+
   }
   section {
     text-align: center;
   }
-  
+  .btn-primary {
+    color: #fff;
+    background-color: #0e172c;
+    margin: 10px;
+    height: 80px;
+    width: 200px;
+    left: 24px;
+    content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 10px 10px 10px;
+    border-color: #0e172c;
+    align-items: center;
+}
+#img-icon{
+    width: 35px;
+    height: 35px;
+    background-color:  rgba(145, 193, 215, 1);
+}

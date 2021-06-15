@@ -9,9 +9,8 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link href="/css/style.css" rel="stylesheet">
-    <title>Adopta Me</title>
+    <title>Perfil</title>
 </head>
-
 <body>
     <header>
       <!--Nav-->
@@ -44,52 +43,21 @@
       </nav>
     </header>
       <!--endNav-->
-      
-
-      <!--banner-->
-      <div class="container">
-        <div> 
-          <div id="banner1">
-            <img src="/img/zyro-image.png" /></a>
-          </div>
-          </div>
-          <h2>Encuentra tu amigo fiel</h2>
-          <p> Cuando adoptas a una mascota,cosas 
-            maravillosas sucedenen tu vida. Si estás pensando en tener un nuevo integrante
-            en tu familia; ¡estas en el lugar correcto!.
-          </p>
-          <button id="bottom-banner"> <a href="#banner2"></a>Siguiente</button>
-        <div id="banner2"> 
-          <div>
-            <img src="/img/banner-2.png" />
-          </div>
-          <h2>Crea una nueva historia</h2>
-          <p>Adoptar puede ser una de las experiencias
-            más grandiosas de tu vida, donde 
-            compartirás bellos momentos con estos
-            amiguitos fieles, tiernos y llenos de amor para regalar.
-          </p>
-          <button id="bottom-banner">Siguiente</button>
+      <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="profile-name" aria-describedby="emailHelp">
         </div>
-      </div>  
-    </div>
-  <section class="text-center d-flex align-items-center min-vh-100" id="section-categorias">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-            <h2>Adopta una adorable mascota</h2>
-            <h3 id="subtitle-categorias">Categorías de mascotas</h3>
-            <div class="offset-md group-30">
-              <a class="btn btn-lg btn-primary text-center" target="_blank" href="#"> 
-                  <img src="img/perro.ico" width="35px" weight="35px"id="img-icon"class="rounded-circle">  Perros</a>
-                  <a class="btn btn-lg btn-primary text-center" href="#">
-                      <img src="img/Categoría=Gatos.ico" width="35px" height="35px" id="img-icon"class="rounded-circle">
-                        Gatos</a>
-            </div>
+        <div class="mb-3">
+            <label for="apellido-profile" class="form-label">Apellido</label>
+            <input type="email" class="form-control" id="profile-name" aria-describedby="emailHelp">
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="profile-email"aria-describedby="emailHelp">
+          </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </main>
     <footer></footer>
     <script src="/js/main.js"></script>
