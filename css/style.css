@@ -9,8 +9,9 @@ body {
     height: 60px;
     position: fixed;
     border-radius: 0px;
-    position: fixed;
+    top:88%;
   }
+  
   
   .nav-pills .nav-link {
     border-radius: 20px;
@@ -35,6 +36,7 @@ body {
     background: #fec7d7;
     align-content: center;
     text-align: center;
+    margin-bottom: 0px;
   }
   #banner2 {
     background: rgba(167, 134, 223, 1);
@@ -53,6 +55,8 @@ body {
     width: 350px;
     height: 50px;
     margin-top: 30px;
+    text-align: center;
+    
   }
   
   button.active {
@@ -63,11 +67,19 @@ body {
     display: none;
     visibility: hidden;
   }
-  
-  button:hover {
-    animation-name: width;
-    animation-duration: 2000ms;
+  [type="submit"] {
+    background: #0e172c;
+    color: white;
+    align-content: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    display: block;
+    visibility: visible;
+    width: 350px;
+    height: 50px;
+    margin-top: 30px;
   }
+ 
   
   i {
     display: block;
@@ -87,8 +99,9 @@ body {
     max-width: 100%;
 
   }
-  section {
+  #section-categorias{
     text-align: center;
+    margin-top: 0px;
   }
   .btn-primary {
     color: #fff;
@@ -104,8 +117,23 @@ body {
     border-color: #0e172c;
     align-items: center;
 }
-#img-icon{
+#img-icon
+{
     width: 35px;
     height: 35px;
     background-color:  rgba(145, 193, 215, 1);
+}
+form {
+  margin: 0 auto;
+  text-align: left;
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #fec7d7;
+}
+a{
+  background-color:#0e172c;
+  color: #fff;
+  text-decoration: none;
 }

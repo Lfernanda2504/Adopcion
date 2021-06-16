@@ -15,49 +15,50 @@
     <header>
       <!--Nav-->
       <main>
-      <nav class="">
-      <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation" id="home">
-          <button class="btn nav-link btn-sm active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-            <i class="fa fa-fw fa-home"></i> 
-            Home
-          </button>
-        </li>
-        <li class="nav-item" role="presentation" id="message">
-          <button class="btn nav-link btn-sm" id="pills-message-tab" data-bs-toggle="pill" data-bs-target="#pills-message" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-            <i class="fa fa-comment" aria-hidden="true"></i>
-            Mensajes
-          </button>  
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="btn nav-link btn-sm" id="pills-favorite-tab" data-bs-toggle="pill" data-bs-target="#pills-favorite" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-            <i class="fa fa-heart-circle" aria-hidden="true"></i>
-             Favoritos
-          </button>  
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="btn nav-link btn-sm" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-            <i class="fa fa-user-circle" aria-hidden="true"></i>Perfil</button>
-        </li> 
-      </ul>
-      </nav>
+        <nav class="nav-bar">
+          <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation" id="home">
+              <button class="btn nav-link btn-sm active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                <a href="index.html">Home</a> <i class="fa fa-fw fa-home"></i>
+              </button>
+            </li>
+            <li class="nav-item" role="presentation" id="message">
+              <button class="btn nav-link btn-sm" id="pills-message-tab" data-bs-toggle="pill" data-bs-target="#pills-message" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <a href="#">Mensajes</a> <i class="fa fa-comment" aria-hidden="true"></i>
+              </button>  
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="btn nav-link btn-sm" id="pills-favorite-tab" data-bs-toggle="pill" data-bs-target="#pills-favorite" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                <a href="#">Favoritos</a><i class="fa fa-heart-circle" aria-hidden="true"></i>
+              </button>  
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="btn nav-link btn-sm" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <a href="profile.html">Perfil</a><i class="fa fa-user-circle" aria-hidden="true"></i></button>
+            </li> 
+          </ul>
+          </nav>
     </header>
       <!--endNav-->
+      
       <form>
+        <h1>Perfil</h1>
+        <img class="rounded-circle"><!--falta agregar imagen-->
         <div class="mb-3">
             <label for="name" class="form-label">Nombre</label>
-            <input type="email" class="form-control" id="profile-name" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp"required>
         </div>
         <div class="mb-3">
-            <label for="apellido-profile" class="form-label">Apellido</label>
-            <input type="email" class="form-control" id="profile-name" aria-describedby="emailHelp">
+            <label for="lastname" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="Email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="profile-email"aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="email"aria-describedby="emailHelp" required>
           </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
+        <button type="submit" id="enviar"class="bottom-banner text-center">Enviar</button>
+      
+    </div>
     </main>
     <footer></footer>
     <script src="/js/main.js"></script>
