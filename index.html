@@ -16,28 +16,28 @@
     <header>
       <!--Nav-->
       <main>
-      <nav class="">
+      <nav class="nav-bar">
       <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation" id="home">
-          <button class="btn nav-link btn-sm active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+          <button onclick="window.location.href='/index.html'" class="btn nav-link btn-sm" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home">
             <i class="fa fa-fw fa-home"></i> 
             Home
           </button>
         </li>
-        <li class="nav-item" role="presentation" id="message">
-          <button class="btn nav-link btn-sm" id="pills-message-tab" data-bs-toggle="pill" data-bs-target="#pills-message" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+        <li class="nav-item" role="presentation">
+          <button onclick="window.location.href='/message.html'" class="btn nav-link btn-sm " id="pills-message-tab" data-bs-toggle="pill" data-bs-target="#pills-message" type="button" role="tab" aria-controls="pills-message">
             <i class="fa fa-comment" aria-hidden="true"></i>
             Mensajes
           </button>  
         </li>
         <li class="nav-item" role="presentation">
-          <button class="btn nav-link btn-sm" id="pills-favorite-tab" data-bs-toggle="pill" data-bs-target="#pills-favorite" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+          <button onclick="window.location.href='/favorite.html'" class="btn nav-link btn-sm" id="pills-favorite-tab" data-bs-toggle="pill" data-bs-target="#pills-favorite" type="button" role="tab" aria-controls="pills-favorite">
             <i class="fa fa-heart-circle" aria-hidden="true"></i>
              Favoritos
           </button>  
         </li>
         <li class="nav-item" role="presentation">
-          <button class="btn nav-link btn-sm" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+          <button onclick="window.location.href='/profile.html'" class="btn nav-link btn-sm" id="pills-perfil-tab" data-bs-toggle="pill" data-bs-target="#pills-perfil" type="button" role="tab" aria-controls="pills-perfil" >
             <i class="fa fa-user-circle" aria-hidden="true"></i>Perfil</button>
         </li> 
       </ul>
@@ -53,7 +53,7 @@
               maravillosas sucedenen tu vida. Si estás pensando en tener un nuevo integrante
               en tu familia; ¡estas en el lugar correcto!.
               </p>
-            <button id="bottom-banner"> <a href="#banner2"></a>Siguiente</button>
+              <button onclick="window.location.href='/#banner2'" id="bottom-banner">Siguiente</button>
         </div>
         <div id="banner2"> 
             <img src="/img/banner-2.png" />
@@ -64,8 +64,8 @@
             compartirás bellos momentos con estos
             amiguitos fieles, tiernos y llenos de amor para regalar.
           </p>
-          <a href="categorias.html"></a>
-          <button id="bottom-banner">Siguiente</button>
+          <button onclick="window.location.href='/categorias.html'" id="bottom-banner">Siguiente
+          </button>
         </div>
   </main>
     <footer></footer>
