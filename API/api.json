@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "imagen": "https://elrefugio.org/contenido/animales/thumbsFicha/El-Refugio-Bender.jpg",
+        "imagen": "https://elrefugio.org/contenido/animales/thumbsFicha/El-Refugio-Ukanweb.jpg",
         "nombre": "Ukan",
         "raza": "Mestizo",
         "Dirección": "Carrera 54 No. 68 - 80 Barrio el Prado",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "imagen": "https://elrefugio.org/ficha/zoltar",
+        "imagen": "https://elrefugio.org/contenido/animales/thumbsFicha/El-Refugio-Zoltarweb.jpg",
         "nombre": "Zoltar",
         "raza": "Pastor Aleman",
         "Dirección": "Carrera 56A No. 51 - 81",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "imagen": "https://elrefugio.org/ficha/odisea",
+        "imagen": "https://elrefugio.org/contenido/animales/thumbsFicha/El-Refugio-Odiseaweb.jpg",
         "nombre": "Odisea",
         "raza": "AM. STAFFORD",
         "Dirección": "Carrera 8  No. 20 - 59",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "imagen": "https://elrefugio.org/ficha/uma",
+        "imagen": "https://elrefugio.org/contenido/animales/thumbsFicha/El-Refugio-Umaweb.jpg",
         "nombre": "Uma",
         "raza": "ROTTWEILER",
         "Dirección": "Calle 59 No. 27 - 35 Barrio Galán",
