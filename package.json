@@ -11,14 +11,18 @@
     "url": "git+https://github.com/Lfernanda2504/Adopcion-main.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Luisa fda Garcia",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lfernanda2504/Adopcion-main/issues"
   },
-  "homepage": "https://github.com/Lfernanda2504/Adopcion-main#readme",
+  "homepage": "https://lfernanda2504.github.io/Adopcion",
   "dependencies": {
     "gh": "^2.8.9",
     "pages": "^0.0.16"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.6.3",
+    "mocha": "^1.9.0"
   }
 }
