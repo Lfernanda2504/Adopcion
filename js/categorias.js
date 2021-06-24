@@ -26,6 +26,7 @@ const fetchData = async () => {
 function showAlert(event){
   alert("evento detectado");
 }
+
 let Card = ''
 const mostrarCardPerros = () => {
     Card = ""

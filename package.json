@@ -1,0 +1,24 @@
+{
+  "name": "adopcion-main",
+  "version": "1.0.0",
+  "description": "Sprint 1 JavaScript, Html y Css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lfernanda2504/Adopcion-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lfernanda2504/Adopcion-main/issues"
+  },
+  "homepage": "https://github.com/Lfernanda2504/Adopcion-main#readme",
+  "dependencies": {
+    "gh": "^2.8.9",
+    "pages": "^0.0.16"
+  }
+}
