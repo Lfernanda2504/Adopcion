@@ -6,8 +6,8 @@ let dataApi;
 
 window.addEventListener('load', () => {
     fetchData();
-    btnPerro.onclick =showAlert;
-    btnGato.onclick =showAlert;
+    btnPerro.onclick =mostrarCard();
+    btnGato.onclick =mostrarCard();
     
 })
 
@@ -15,20 +15,16 @@ window.addEventListener('load', () => {
 
 const fetchData = async () => {
     try {
-        const rest = await fetch('api/api.json')
-        dataApi = await rest.json()
-        mostrarCardPerros(dataApi)
+        const res = await fetch('api/api.json')
+        dataApi = await res.json()
+        mostrarCard(dataApi)
     } catch (error) {
         console.log(error)
     }
 }
 
-function showAlert(event){
-  alert("evento detectado");
-}
-
 let Card = ''
-const mostrarCardPerros = () => {
+const mostrarCard = () => {
     Card = ""
     dataApi.forEach(mascotas => {
         Card += `
