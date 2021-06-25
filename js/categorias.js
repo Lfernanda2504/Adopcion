@@ -1,16 +1,11 @@
-<<<<<<< HEAD
 const doc= document;
 const mascotas = doc.getElementById('mascotas');
 const btnPerro = doc.getElementById('perro');
 const btnGato =doc.getElementById('gato')
-=======
-const mascotas = document.getElementById('mascotas');
->>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
 let dataApi;
 
 window.addEventListener('load', () => {
     fetchData();
-<<<<<<< HEAD
     btnPerro.onclick =showAlert;
     btnGato.onclick =showAlert;
     
@@ -18,35 +13,22 @@ window.addEventListener('load', () => {
 
 
 
-=======
-})
-
->>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
 const fetchData = async () => {
     try {
         const rest = await fetch('api/api.json')
         dataApi = await rest.json()
-<<<<<<< HEAD
         mostrarCardPerros(dataApi)
-=======
-        mostrarCard(dataApi)
->>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
     } catch (error) {
         console.log(error)
     }
 }
 
-<<<<<<< HEAD
 function showAlert(event){
   alert("evento detectado");
 }
 
 let Card = ''
 const mostrarCardPerros = () => {
-=======
-let Card = ''
-const mostrarCard = () => {
->>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
     Card = ""
     dataApi.forEach(mascotas => {
         Card += `
@@ -71,13 +53,9 @@ const mostrarCard = () => {
 console.log(mascotas);
 mascotas.innerHTML=Card
 
-<<<<<<< HEAD
 }
 
 
 
     
   
-=======
-}
->>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
