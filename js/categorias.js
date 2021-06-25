@@ -1,22 +1,14 @@
-const doc= document;
-const mascotas = doc.getElementById('mascotas');
-const btnPerro = doc.getElementById('perro');
-const btnGato =doc.getElementById('gato')
+const mascotas = document.getElementById('mascotas');
 let dataApi;
 
 window.addEventListener('load', () => {
     fetchData();
-    btnPerro.onclick =mostrarCard();
-    btnGato.onclick =mostrarCard();
-    
 })
-
-
 
 const fetchData = async () => {
     try {
-        const res = await fetch('api/api.json')
-        dataApi = await res.json()
+        const rest = await fetch('api/api.json')
+        dataApi = await rest.json()
         mostrarCard(dataApi)
     } catch (error) {
         console.log(error)
@@ -50,8 +42,3 @@ console.log(mascotas);
 mascotas.innerHTML=Card
 
 }
-
-
-
-    
-  
