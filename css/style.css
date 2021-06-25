@@ -2,7 +2,10 @@
 body {
     padding-bottom: 70px;
     text-align: center;
+<<<<<<< HEAD
     background-color: rgb(250, 246, 246);
+=======
+>>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
   }
   nav{
     background-color: rgb(250, 246, 246);
@@ -39,7 +42,10 @@ body {
     align-content: center;
     text-align: center;
     top: 0px;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
   }
   #banner2 {
     background: rgba(167, 134, 223, 1);
@@ -59,7 +65,10 @@ body {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
  
   }
 
@@ -128,12 +137,15 @@ body {
     height: 35px;
     background-color:  rgba(145, 193, 215, 1);
 }
+<<<<<<< HEAD
 #img-logo
 {
   width: 48px;
   height: 48px;
   
 }
+=======
+>>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949
 form {
   margin: 0 auto;
   text-align: left;
@@ -149,6 +161,7 @@ a{
   text-decoration: none;
   
 }
+<<<<<<< HEAD
 .img-fluid{
   min-width: 216px;
   min-width: 144px;
@@ -160,3 +173,6 @@ a{
   width: 60px;
   height: 60px;
 }
+=======
+
+>>>>>>> 38c7878dfbe34ae296a49340ea630f13f8723949

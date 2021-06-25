@@ -1,16 +1,8 @@
-
-const nameInput = document.getElementById("name").value;
-const lastName = document.getElementById("lastname").value;
-const emailInput= document.getElementById("email").value; 
-{
-    const guardarData = ()=>
-    {
-    localStorage.setItem(nameInput);
-    localStorage.setItem(lastName);
-    localStorage.setItem(emailInput);
-        
-    }
-   return (console.log(nameInput, lastName, emailInput))
-
+var getData = function(){
+    var nameInput = document.getElementById("name").value;
+    var lastName = document.getElementById("lastname").value;
+    var emailInput= document.getElementById("email").value;
+   
+    console.log(nameInput+" "+lastName+" "+emailInput);
 }
-
+ 
