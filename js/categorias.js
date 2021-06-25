@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
 
 const fetchData = async () => {
     try {
-        const rest = await fetch('api/api.json')
+        const rest = await fetch('API/api.json')
         dataApi = await rest.json()
         mostrarCard(dataApi)
     } catch (error) {
